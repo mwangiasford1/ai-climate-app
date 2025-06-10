@@ -1,0 +1,31 @@
+# AI-Powered Climate Forecasting for Sustainable Action
+
+## 🔹 SDG 13: Climate Action – Problem Statement
+Climate change requires **accurate CO₂ emission predictions** to inform policy and industrial sustainability. This project uses **AI-driven forecasting** to help decision-makers act proactively.
+
+## 🔹 ML Approach
+- **Supervised Learning:** LSTM-based time series forecasting.
+- **Comparison:** Evaluated **XGBoost vs. LSTM** for forecasting accuracy.
+
+## 🔹 Dataset & Preprocessing
+- **Dataset Sources:** Kaggle Climate Data, NASA SDG Repository.
+- **Preprocessing:** Scaling via MinMaxScaler, handling missing values, feature selection (CO₂ levels, temperature trends).
+
+## 🔹 Model Evaluation & Results
+- **Metrics Used:**  
+  - **RMSE:** Measures prediction error.  
+  - **MAE:** Shows average deviation from actual values.  
+  - **R²-score:** Evaluates goodness of fit.
+
+## 🔹 Ethical Considerations
+- **Bias Risks:** Ensuring datasets cover **developed and developing nations**.  
+- **Fairness:** Providing insights for **carbon policy regulations globally**.  
+
+## 🔹 Deployment & Accessibility
+- **Flask API built for real-time predictions**  
+- **Frontend using Jinja2 templates & Chart.js visualizations**  
+- **Hosted globally via Render (Deployment steps provided)**  
+
+## 🔹 Future Enhancements
+- Integrate **live weather APIs** for dynamic climate adaptation.  
+- Compare **LSTM vs. other ML techniques for improved forecasts.**
