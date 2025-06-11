@@ -1,0 +1,6 @@
+flask
+gunicorn
+earthengine-api
+requests
+pandas
+tensorflow
