@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 .venv/
 .venv/
+=======
+__pycache__/
+>>>>>>> b6ee284b (Updated .gitignore to exclude __pycache__/)
