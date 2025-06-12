@@ -1,3 +1,9 @@
+# This file is used to install the required Python packages for the application.
+flask 
+gunicorn
+earthengine-api
+requests
+tensorflow
 flask
 gunicorn
 earthengine-api
